@@ -16,11 +16,11 @@ function App() {
     {/* props like attributes for the components */}
     {/* <Chapterone title = "chapterOne " auther= "balram" >he is a nice person</Chapterone> */}
     {/* example for the chapterTwo component we are using the map method  */}
-    {/* {books.map((book,index) => (
+    {books.map((book,index) => (
       <Chaptertwo key={index} book={book.titel} author={book.author} />
-    ))} */}
+    ))}
 
-    <Chapterthree/>
+    {/* <Chapterthree/> */}
     
     
     </div>
