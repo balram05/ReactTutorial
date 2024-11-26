@@ -18,7 +18,7 @@ export default function Chaptertwo(props) {
   //    the useEffect will render the values for initially render only
   useEffect(() => {
     console.log("useEffect call for every render")
-    document.title = `count ${countValue}`;
+    // document.title = `count ${countValue}`;
     window.addEventListener('mousemove', logMouse)
   },[]);
 
