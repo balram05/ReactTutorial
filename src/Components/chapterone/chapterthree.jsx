@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
-
+import React, { useState } from 'react'
+import Welcom from './Welcom';
 const Chapterthree = () => {
-
+console.log("you are in the chapterThree")
     // in this example we use the spread operater (...name)
     //  for merging the values of setState bcuz by default the setstate
     // method won't merge and update values or objects 
@@ -17,6 +17,7 @@ const Chapterthree = () => {
         //id is used for the oject and key is ued for the props for unique identiter
         setItems([...items, { id: items.length, value: Math.floor(Math.random() * 10) + 1 }])
     }
+
 
     return (
 
@@ -39,6 +40,7 @@ const Chapterthree = () => {
                     <li key={item.id}>{item.value}</li>
                 ))}</ul>
             </div>
+            <Welcom/>
         </div>
 
     )
