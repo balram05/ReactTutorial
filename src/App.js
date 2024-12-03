@@ -3,8 +3,10 @@ import './App.css';
 // import  Chapterone  from './Components/chapterone/chapterone';
 // import Chaptertwo from './Components/chapterone/chaptertwo';
 // import Chapterthree from './Components/chapterone/chapterthree';
-import Todo from './Components/chapterone/Todo';
+// import Todo from './Components/chapterone/Todo';
 // import From from './Components/Form/Form'
+// import Parent from './Components/UseContext/Parent';
+import TimerReducer from './Components/useReducer/UseReducer';
 //components names uesd directly withou the {}
 //{} are used for the react hooks or the custom packages 
 function App() {
@@ -25,8 +27,10 @@ function App() {
     {/* <Chapterthree/> */}
 
     {/* <From/> */}
-    <Todo/>
-    
+    {/* <Todo/> */}
+    {/* <Parent/> */}
+    <TimerReducer/>
+
     
     </div>
 
