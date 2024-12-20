@@ -1,0 +1,20 @@
+.lunch-image {
+    width: 286px;
+    height: 221px;
+}
+
+.lunch-mycardcontent {
+    text-align: start;
+}
+
+.lunch-mycard {
+    width: 310px;
+    height: 341px;
+}
+
+.ratings {
+    padding: 10px;
+    background-color: #3d852d;
+    border-radius: 10px;
+    color: #ffffff;
+}

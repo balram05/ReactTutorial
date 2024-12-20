@@ -11,19 +11,20 @@ const Form = () => {
     setValues({ ...values, [e.target.name]: e.target.value });
     // console.log (values)
   };
-  const handelReset =(e)=>{
-    e.preventDefault()
+  const handelReset = (e) => {
+    e.preventDefault();
     setValues({
-      firstname:'',
-      lastname:'',
-      email:'',
-      password:''
+      firstname: "",
+      lastname: "",
+      email: "",
+      password: "",
     });
-  }
-  const handelSubmit =(e)=>{
-    e.preventDefault()
-    console.log("submit values ")
-  }
+  };
+  const handelSubmit = (e) => {
+    e.preventDefault();
+    console.log("submit values ");
+    console.log("values", values);
+  };
   // console.log("name", Password)
   return (
     <div className="container">
@@ -31,14 +32,14 @@ const Form = () => {
         <br />
         <div className="row ">
           <div className="col">
-             {/* Now every you work withe the form, that stores the values in
+            {/* Now every you work withe the form, that stores the values in
             the single state like values in this example.
 
             must use the htmlfor for lable  and name (they must be same)  for input field*/}
             <label htmlFor="firstname">FirstName</label>
           </div>
           <div className="col">
-          {/* must use the htmlfor for lable  and name for input field */}
+            {/* must use the htmlfor for lable  and name for input field */}
             <input
               type="text"
               name="firstname"
@@ -92,10 +93,12 @@ const Form = () => {
         <br />
         <div className="row">
           <div className="col">
-            <button  type="submit">submit</button>
+            <button type="submit">submit</button>
           </div>
           <div className="col">
-            <button onClick={handelReset} type="button">reset</button>
+            <button onClick={handelReset} type="button">
+              reset
+            </button>
           </div>
         </div>
       </form>

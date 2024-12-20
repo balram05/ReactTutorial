@@ -1,12 +1,20 @@
 
 import './App.css';
+// import data from './Components/restaurantdata/restaurantdata';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import  Chapterone  from './Components/chapterone/chapterone';
 // import Chaptertwo from './Components/chapterone/chaptertwo';
 // import Chapterthree from './Components/chapterone/chapterthree';
 // import Todo from './Components/chapterone/Todo';
 // import From from './Components/Form/Form'
 // import Parent from './Components/UseContext/Parent';
-import TimerReducer from './Components/useReducer/UseReducer';
+// import TimerReducer from './Components/useReducer/UseReducer';
+// import Trendingcard from './Components/card/trendingcard';
+// import Bestplaces from "./Components/topbestplaces/bestplaces"
+// import Advances from './assets/pages/advances/advances';
+import Sidenav from './Components/sidenav/sidenav';
+// import Lunch from "./Components/lunch/lunch"
+// import Advancescard from "./Components/advancescard/advancescard"
 //components names uesd directly withou the {}
 //{} are used for the react hooks or the custom packages 
 function App() {
@@ -29,7 +37,13 @@ function App() {
     {/* <From/> */}
     {/* <Todo/> */}
     {/* <Parent/> */}
-    <TimerReducer/>
+    {/* <TimerReducer/> */}
+    {/* <Trendingcard restaurantdata={data} /> */}
+    {/* <Bestplaces restaurantdata={data}/> */}
+    {/* <Lunch restaurantdata={data}/> */}
+    {/* <Advancescard restaurantdata={data}/> */}
+    {/* <Advances/> */}
+    <Sidenav/>
 
     
     </div>

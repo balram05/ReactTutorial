@@ -1,0 +1,89 @@
+.advances-mycardimage {
+    padding-left: 10px;
+}
+
+.advances-cardimage {
+    height: 144px;
+    width: 198px;
+    border-radius: 10px;
+}
+
+.advances-cardcontent {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 0.5rem;
+    padding-right: 10px;
+}
+
+.advances-mycard {
+    height: 164.77px;
+    width: 479.54px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 12px 0px 36px 0px rgba(0, 0, 0, 0.176);
+    border-radius: 10px;
+}
+
+.restaurant-name {
+    font-weight: 500;
+    font-size: 16px;
+    /* font-family: "rubik"; */
+    line-height: 18.96px;
+    letter-spacing: 0.89px;
+}
+
+.ratings-value {
+    font-weight: 400;
+    font-size: 14px;
+    color: #3c3c3c;
+    line-height: 16px;
+}
+
+.ratings {
+    line-height: 16px;
+}
+
+.restaurant-address {
+    color: #818181;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    letter-spacing: 0.25px;
+}
+
+.services {
+    border: 1px solid #d2d2d2;
+    border-radius: 16px;
+    height: 20px;
+    /* font-family: "Roboto"; */
+    font-size: 12px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    color: #818181;
+}
+
+.status-content {
+    font-family: "roboto";
+}
+
+.status>span {
+    /* font-family: "roboto"; */
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.status>.open {
+    color: #2bc04c;
+}
+
+.status>.closed {
+    color: #818181;
+}
+
+.bi-door-closed {
+    color: black;
+}

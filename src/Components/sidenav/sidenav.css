@@ -1,0 +1,42 @@
+ .sidenav{
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    border: 1px solid #FFFFFF;
+}
+/* .Shorts, .Fav , .Offers, .Recent, .Heathly{
+    border: 2px solid #e2e2e2;
+    padding: 10px;
+    align-items: center;
+} */
+.Shorts > img, .Fav > img{
+    
+    height: 24px;
+    width: 24px;
+}
+.Recent>img{
+    height: 37px;
+    width: 37px;
+}
+.Offers>img{
+    height: 34px;
+    width: 34px;
+}
+.Heathly>img{
+    height: 28px;
+    width: 46px;
+}
+.navcontent{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16.5px;
+}
+.line{
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}       

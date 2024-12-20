@@ -1,0 +1,17 @@
+.best-places{
+    background-color: #FFFFFF;
+    box-shadow: 22px 3px 55px 5px rgba(0,0,0,0.176); 
+    border-radius: 10px;   
+    height: 144px;
+    width:393px;
+    justify-content: center;
+    align-items: center;
+}
+.bestplces-image {
+    width: 141px;
+    height: 130px;
+    border-radius: 10px;
+}
+.restaurant-name{
+    font-family: "rubik";
+}
